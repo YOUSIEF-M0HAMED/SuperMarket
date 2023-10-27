@@ -1,0 +1,14 @@
+ <li class="has-sub">
+                            <a class="js-arrow" href="#">
+                                <i class="fas fa-tachometer-alt"></i>Products</a>
+                            <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
+                                <li>
+                                    <a href="{{ route('products.index') }}">Show All Products 1</a>
+                                </li>
+                                <li>
+                                    <a href="{{ route('products.create') }}">Add New Product 2</a>
+                                </li>
+
+                            </ul>
+                        </li>
+
